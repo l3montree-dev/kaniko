@@ -6,7 +6,7 @@ kaniko is a tool to build container images from a Dockerfile, inside a container
 or Kubernetes cluster.
 
 > [!IMPORTANT]
-> This is a supported replacement of the original `GoogleContainerTools/kaniko`
+> This repository is a fork from `chainguard-dev` to continue publishing OCI images. It is a replacement of the original `GoogleContainerTools/kaniko`
 > repository, which was archived in June of 2025. Further details in
 > [History and Status](#history-and-status).
 

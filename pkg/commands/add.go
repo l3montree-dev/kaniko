@@ -24,9 +24,9 @@ import (
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/pkg/errors"
 
-	"github.com/chainguard-dev/kaniko/pkg/dockerfile"
+	"github.com/l3montree-dev/kaniko/pkg/dockerfile"
 
-	"github.com/chainguard-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/pkg/util"
 	"github.com/sirupsen/logrus"
 )
 

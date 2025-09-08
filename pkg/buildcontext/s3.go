@@ -27,10 +27,10 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	s3manager "github.com/aws/aws-sdk-go-v2/feature/s3/manager"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
-	kConfig "github.com/chainguard-dev/kaniko/pkg/config"
-	"github.com/chainguard-dev/kaniko/pkg/constants"
-	"github.com/chainguard-dev/kaniko/pkg/util"
-	"github.com/chainguard-dev/kaniko/pkg/util/bucket"
+	kConfig "github.com/l3montree-dev/kaniko/pkg/config"
+	"github.com/l3montree-dev/kaniko/pkg/constants"
+	"github.com/l3montree-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/pkg/util/bucket"
 )
 
 // S3 unifies calls to download and unpack the build context.

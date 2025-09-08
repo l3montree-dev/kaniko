@@ -21,9 +21,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/pkg/config"
-	"github.com/chainguard-dev/kaniko/pkg/fakes"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/l3montree-dev/kaniko/pkg/config"
+	"github.com/l3montree-dev/kaniko/pkg/fakes"
 )
 
 const (

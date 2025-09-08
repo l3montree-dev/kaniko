@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/pkg/config"
-	"github.com/chainguard-dev/kaniko/pkg/util"
-	"github.com/chainguard-dev/kaniko/testutil"
+	"github.com/l3montree-dev/kaniko/pkg/config"
+	"github.com/l3montree-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/testutil"
 	"github.com/pkg/errors"
 )
 

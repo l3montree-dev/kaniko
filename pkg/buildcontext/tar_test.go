@@ -26,8 +26,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/pkg/util"
-	"github.com/chainguard-dev/kaniko/testutil"
+	"github.com/l3montree-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/testutil"
 )
 
 func TestBuildWithLocalTar(t *testing.T) {

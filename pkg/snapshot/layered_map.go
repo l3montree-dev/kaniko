@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chainguard-dev/kaniko/pkg/timing"
-	"github.com/chainguard-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/pkg/timing"
+	"github.com/l3montree-dev/kaniko/pkg/util"
 )
 
 type LayeredMap struct {

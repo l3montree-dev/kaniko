@@ -24,7 +24,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/pkg/util"
 )
 
 func Test_ResolvePaths(t *testing.T) {

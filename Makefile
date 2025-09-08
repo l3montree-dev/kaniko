@@ -19,9 +19,9 @@ VERSION_PACKAGE = $(REPOPATH/pkg/version)
 SHELL := /bin/bash
 GOOS ?= $(shell go env GOOS)
 GOARCH ?= $(shell go env GOARCH)
-ORG := github.com/chainguard-dev
+ORG := github.com/l3montree-dev
 PROJECT := kaniko
-REGISTRY?=gcr.io/kaniko-project
+REGISTRY?=ghcr.io/l3montree-dev/kaniko
 
 REPOPATH ?= $(ORG)/$(PROJECT)
 VERSION_PACKAGE = $(REPOPATH)/pkg/version

@@ -19,7 +19,7 @@ package util
 import (
 	"regexp"
 
-	"github.com/chainguard-dev/kaniko/pkg/constants"
+	"github.com/l3montree-dev/kaniko/pkg/constants"
 )
 
 // Validate if the host url provided is with correct suffix for AzureCloud, AzureChinaCloud, AzureGermanCloud and AzureUSGovernment

@@ -19,7 +19,7 @@ package util
 import (
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/testutil"
+	"github.com/l3montree-dev/kaniko/testutil"
 )
 
 func Test_ValidAzureBlobStorageHost(t *testing.T) {

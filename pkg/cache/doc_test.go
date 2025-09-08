@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"log"
 
-	"github.com/chainguard-dev/kaniko/pkg/config"
-	"github.com/chainguard-dev/kaniko/pkg/image/remote"
+	"github.com/l3montree-dev/kaniko/pkg/config"
+	"github.com/l3montree-dev/kaniko/pkg/image/remote"
 )
 
 func ExampleWarmer_Warm() {

@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	kConfig "github.com/chainguard-dev/kaniko/pkg/config"
-	"github.com/chainguard-dev/kaniko/pkg/constants"
-	"github.com/chainguard-dev/kaniko/pkg/util"
+	kConfig "github.com/l3montree-dev/kaniko/pkg/config"
+	"github.com/l3montree-dev/kaniko/pkg/constants"
+	"github.com/l3montree-dev/kaniko/pkg/util"
 	"github.com/sirupsen/logrus"
 )
 

@@ -19,7 +19,7 @@ package config
 import (
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/testutil"
+	"github.com/l3montree-dev/kaniko/testutil"
 )
 
 func TestKanikoGitOptions(t *testing.T) {

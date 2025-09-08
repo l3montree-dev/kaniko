@@ -22,14 +22,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	kConfig "github.com/chainguard-dev/kaniko/pkg/config"
+	kConfig "github.com/l3montree-dev/kaniko/pkg/config"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/chainguard-dev/kaniko/pkg/dockerfile"
-	"github.com/chainguard-dev/kaniko/pkg/util"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
+	"github.com/l3montree-dev/kaniko/pkg/dockerfile"
+	"github.com/l3montree-dev/kaniko/pkg/util"
 )
 
 // for testing

@@ -27,12 +27,6 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/chainguard-dev/kaniko/pkg/cache"
-	"github.com/chainguard-dev/kaniko/pkg/commands"
-	"github.com/chainguard-dev/kaniko/pkg/config"
-	"github.com/chainguard-dev/kaniko/pkg/dockerfile"
-	"github.com/chainguard-dev/kaniko/pkg/util"
-	"github.com/chainguard-dev/kaniko/testutil"
 	"github.com/containerd/containerd/platforms"
 	"github.com/google/go-cmp/cmp"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
@@ -40,6 +34,12 @@ import (
 	"github.com/google/go-containerregistry/pkg/v1/mutate"
 	"github.com/google/go-containerregistry/pkg/v1/partial"
 	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/l3montree-dev/kaniko/pkg/cache"
+	"github.com/l3montree-dev/kaniko/pkg/commands"
+	"github.com/l3montree-dev/kaniko/pkg/config"
+	"github.com/l3montree-dev/kaniko/pkg/dockerfile"
+	"github.com/l3montree-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/testutil"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 )
 
@@ -1627,7 +1627,7 @@ func hashCompositeKeys(t *testing.T, ck1 CompositeCache, ck2 CompositeCache) (st
 }
 
 func Test_stageBuild_populateCompositeKeyForCopyCommand(t *testing.T) {
-	// See https://github.com/chainguard-dev/kaniko/issues/589
+	// See https://github.com/l3montree-dev/kaniko/issues/589
 
 	for _, tc := range []struct {
 		description      string

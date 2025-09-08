@@ -41,10 +41,10 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/api/option"
 
-	"github.com/chainguard-dev/kaniko/pkg/timing"
-	"github.com/chainguard-dev/kaniko/pkg/util"
-	"github.com/chainguard-dev/kaniko/pkg/util/bucket"
-	"github.com/chainguard-dev/kaniko/testutil"
+	"github.com/l3montree-dev/kaniko/pkg/timing"
+	"github.com/l3montree-dev/kaniko/pkg/util"
+	"github.com/l3montree-dev/kaniko/pkg/util/bucket"
+	"github.com/l3montree-dev/kaniko/testutil"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/chainguard-dev/kaniko
+module github.com/l3montree-dev/kaniko
 
 go 1.24.0
 
