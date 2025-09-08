@@ -2,9 +2,6 @@ name: Build images
 
 on:
   workflow_dispatch:
-  pull_request:
-    branches:
-      - 'main'
 
 permissions: {}
 
@@ -37,28 +34,28 @@ jobs:
             target: kaniko-executor
             platforms: linux/amd64,linux/arm64,linux/s390x,linux/ppc64le
             image-name: ghcr.io/l3montree-dev/kaniko/executor
-            tag: ${{ github.sha }}
+            tag: ${{ github.ref_name }}
             release-tag: latest
 
           - image: executor-debug
             target: kaniko-debug
             platforms: linux/amd64,linux/arm64,linux/s390x
             image-name: ghcr.io/l3montree-dev/kaniko/executor
-            tag: ${{ github.sha }}-debug
+            tag: ${{ github.ref_name }}-debug
             release-tag: debug
 
           - image: executor-slim
             target: kaniko-slim
             platforms: linux/amd64,linux/arm64,linux/s390x,linux/ppc64le
             image-name: ghcr.io/l3montree-dev/kaniko/executor
-            tag: ${{ github.sha }}-slim
+            tag: ${{ github.ref_name }}-slim
             release-tag: slim
 
           - image: warmer
             target: kaniko-warmer
             platforms: linux/amd64,linux/arm64,linux/s390x,linux/ppc64le
             image-name: ghcr.io/l3montree-dev/kaniko/warmer
-            tag: ${{ github.sha }}
+            tag: ${{ github.ref_name }}
             release-tag: latest
 
     steps:
