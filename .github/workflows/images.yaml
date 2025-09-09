@@ -23,6 +23,7 @@ jobs:
 
     permissions:
       contents: read  # Read the repo contents.
+      packages: write  # Write packages to GitHub Container Registry.
 
     runs-on: ubuntu-latest
     strategy:
